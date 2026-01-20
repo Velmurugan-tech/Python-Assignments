@@ -1,1 +1,1 @@
-print("hi Celigo.com")
+print("hi Celigo")
