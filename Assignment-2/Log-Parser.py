@@ -12,3 +12,5 @@ def parse_log(file_name):
 
 result = parse_log("application.log")
 print(result)
+
+
