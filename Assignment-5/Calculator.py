@@ -34,7 +34,7 @@ while True:
             case 4:
                 print(Division(a, b))
             case _:
-                print("Invalid option")
+                print("Invalid option. Try again")
 
     except ZeroDivisionError as e:
         print("Invalid Operands",e)
