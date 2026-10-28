@@ -7,7 +7,7 @@ def parse_log(file_name):
                     if level in line:
                         counts[level] += 1
     except FileNotFoundError:
-        print("Log file not found")
+        print("Log file not found. Try again")
     return counts
 
 result = parse_log("application.log")
